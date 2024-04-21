@@ -1011,6 +1011,12 @@
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,104.14,50.8,N$3,,,,,"/>
+<approved hash="106,1,6.35,83.82,N$5,,,,,"/>
+<approved hash="106,1,6.35,58.42,N$6,,,,,"/>
+<approved hash="113,1,154.94,69.0626,IC1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
