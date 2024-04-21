@@ -524,7 +524,7 @@
 <sheets>
 <sheet>
 <plain>
-<text x="45.72" y="121.92" size="1.778" layer="91">Battery</text>
+<text x="42.672" y="120.904" size="1.778" layer="91">Battery 9V</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="2.54" y="71.12" smashed="yes"/>
@@ -728,6 +728,51 @@
 <pinref part="U$3" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="104.14" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 <label x="45.72" y="88.9" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PR2"/>
+<wire x1="11.43" y1="83.82" x2="11.43" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="11.43" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
+<label x="11.176" y="87.122" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PL2"/>
+<wire x1="11.43" y1="58.42" x2="11.43" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="11.43" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
+<label x="9.398" y="55.118" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PR3"/>
+<wire x1="16.51" y1="83.82" x2="16.51" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
+<label x="16.256" y="90.424" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PL3"/>
+<wire x1="16.51" y1="58.42" x2="16.51" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="16.51" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="16.51" y="48.006" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="VIN"/>
+<wire x1="40.64" y1="0" x2="33.02" y2="0" width="0.1524" layer="91"/>
+<label x="27.94" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PR1"/>
+<wire x1="6.35" y1="83.82" x2="6.35" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="6.35" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PL1"/>
+<wire x1="6.35" y1="58.42" x2="6.35" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="6.35" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
