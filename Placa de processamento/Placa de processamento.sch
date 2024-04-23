@@ -644,6 +644,82 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="buzzer" urn="urn:adsk.eagle:library:113">
+<description>&lt;b&gt;Speakers and Buzzers&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;Distributors:
+&lt;li&gt;Buerklin
+&lt;li&gt;Spoerle
+&lt;li&gt;Schukat
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="AL11P" urn="urn:adsk.eagle:footprint:5250/1" library_version="2">
+<description>&lt;b&gt;SPEAKER&lt;/b&gt;</description>
+<circle x="0" y="0" radius="5.715" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="6.223" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="21"/>
+<pad name="-" x="-2.286" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
+<pad name="+" x="2.286" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
+<text x="-3.175" y="6.35" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="AL11P" urn="urn:adsk.eagle:package:5308/1" type="box" library_version="2">
+<description>SPEAKER</description>
+<packageinstances>
+<packageinstance name="AL11P"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SP" urn="urn:adsk.eagle:symbol:5218/1" library_version="2">
+<wire x1="-1.905" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0" x2="1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AL11P" urn="urn:adsk.eagle:component:5330/2" prefix="SP" library_version="2">
+<description>&lt;b&gt;SPEAKER&lt;/b&gt;&lt;p&gt; Source: Buerklin</description>
+<gates>
+<gate name="G$1" symbol="SP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AL11P">
+<connects>
+<connect gate="G$1" pin="1" pad="-"/>
+<connect gate="G$1" pin="2" pad="+"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5308/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -665,14 +741,16 @@
 <part name="U$9" library="ESP32-DEVKITV1" library_urn="urn:adsk.eagle:library:44018017" deviceset="ESP32DEVKITV1" device="" package3d_urn="urn:adsk.eagle:package:44018021/1"/>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1"/>
 <part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
+<part name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="42.672" y="120.904" size="1.778" layer="91">Battery 9V</text>
 <text x="59.944" y="120.904" size="1.778" layer="91">Sinais Skibs</text>
-<text x="77.216" y="120.904" size="1.778" layer="91">Sinais Buzzer e 3V3</text>
-<text x="106.68" y="120.904" size="1.778" layer="91">Sinais optoacplador</text>
+<text x="77.216" y="120.904" size="1.778" layer="91">Sinal e 3V3</text>
+<text x="106.68" y="120.904" size="1.778" layer="91">Optoacopladores</text>
+<text x="137.16" y="120.65" size="1.778" layer="91">Comunicação serial</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="71.12" smashed="yes"/>
@@ -691,6 +769,10 @@
 <attribute name="VALUE" x="157.48" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="U$10" gate="G$1" x="144.78" y="114.3" smashed="yes"/>
+<instance part="SP1" gate="G$1" x="180.34" y="114.3" smashed="yes">
+<attribute name="NAME" x="176.53" y="120.65" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="111.125" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -752,6 +834,12 @@
 <pinref part="IC1" gate="A" pin="GND"/>
 <wire x1="154.94" y1="66.04" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
 <label x="154.94" y="55.88" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SP1" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="114.3" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<label x="172.72" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX1" class="0">
@@ -961,14 +1049,15 @@
 </net>
 <net name="BUZZER" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="104.14" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
-<label x="81.28" y="88.9" size="1.778" layer="95" rot="R90"/>
+<pinref part="SP1" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="114.3" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
+<label x="187.96" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="IO14"/>
-<wire x1="40.64" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
-<label x="25.4" y="10.16" size="1.778" layer="95"/>
+<pinref part="U$9" gate="G$1" pin="IO27"/>
+<wire x1="40.64" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
+<label x="25.4" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OPTOACOPLADOR1" class="0">
@@ -1017,6 +1106,18 @@
 <pinref part="U$9" gate="G$1" pin="IO1"/>
 <wire x1="76.2" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 <label x="83.82" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SIGNAL1" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="IO14"/>
+<wire x1="40.64" y1="10.16" x2="33.02" y2="10.16" width="0.1524" layer="91"/>
+<label x="25.4" y="10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="104.14" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
+<label x="81.28" y="88.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
