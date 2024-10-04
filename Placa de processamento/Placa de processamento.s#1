@@ -751,6 +751,8 @@
 <text x="77.216" y="120.904" size="1.778" layer="91">Sinal e 3V3</text>
 <text x="106.68" y="120.904" size="1.778" layer="91">Optoacopladores</text>
 <text x="137.16" y="120.65" size="1.778" layer="91">Comunicação serial</text>
+<text x="38.1" y="144.78" size="1.778" layer="91">Seram utilizados os pinos 34 e 35 para os Octocopladores, utilizaremos a conexão de jst de optocopladores dessa placa para isso.</text>
+<text x="38.1" y="139.7" size="1.778" layer="91">Será utilizado as conexões seriais, dessa placa</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="71.12" smashed="yes"/>
@@ -1053,6 +1055,11 @@
 <wire x1="185.42" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="114.3" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <label x="187.96" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="IO27"/>
+<wire x1="40.64" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
+<label x="25.4" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OPTOACOPLADOR1" class="0">

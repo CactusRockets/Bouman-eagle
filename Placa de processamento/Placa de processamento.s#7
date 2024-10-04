@@ -190,30 +190,29 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="PRESSION_BUTTON_SYMBOL" urn="urn:adsk.eagle:symbol:43483814/2" library_version="37">
-<wire x1="-1.27" y1="7.62" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-7.62" x2="19.05" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="7.62" x2="19.05" y2="7.62" width="0.254" layer="94"/>
-<wire x1="19.05" y1="7.62" x2="19.05" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-9.652" y1="1.27" x2="-12.192" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-12.192" y1="1.27" x2="-12.192" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-12.192" y1="-1.27" x2="-9.652" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-9.652" y1="-1.27" x2="-9.652" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="-9.652" y1="-2.286" x2="-13.97" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="-13.97" y1="-2.286" x2="-13.97" y2="2.286" width="0.254" layer="94"/>
-<wire x1="-13.97" y1="2.286" x2="-9.652" y2="2.286" width="0.254" layer="94"/>
-<wire x1="-9.652" y1="2.286" x2="-9.652" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-9.652" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-9.652" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<pin name="PL1" x="3.81" y="-12.7" length="middle" rot="R90"/>
-<pin name="PL2" x="8.89" y="-12.7" length="middle" rot="R90"/>
-<pin name="PL3" x="13.97" y="-12.7" length="middle" rot="R90"/>
-<pin name="PR1" x="3.81" y="12.7" length="middle" rot="R270"/>
-<pin name="PR2" x="8.89" y="12.7" length="middle" rot="R270"/>
-<pin name="PR3" x="13.97" y="12.7" length="middle" rot="R270"/>
-<text x="4.572" y="-0.508" size="0.8128" layer="94">Pression button</text>
+<symbol name="PRESSION_BUTTON_SYMBOL" urn="urn:adsk.eagle:symbol:43483814/3" library_version="38">
+<wire x1="-16.51" y1="7.62" x2="-16.51" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="-7.62" x2="3.81" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-16.51" y1="7.62" x2="3.81" y2="7.62" width="0.254" layer="94"/>
+<wire x1="3.81" y1="7.62" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="13.716" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="13.716" y1="-1.27" x2="16.51" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="16.51" y1="-1.27" x2="16.51" y2="1.27" width="0.254" layer="94"/>
+<wire x1="16.51" y1="1.27" x2="13.716" y2="1.27" width="0.254" layer="94"/>
+<wire x1="13.716" y1="1.27" x2="4.064" y2="1.27" width="0.254" layer="94"/>
+<wire x1="13.716" y1="-1.27" x2="13.716" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="13.716" y1="-2.794" x2="19.05" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="19.05" y1="-2.794" x2="19.05" y2="2.794" width="0.254" layer="94"/>
+<wire x1="13.716" y1="2.794" x2="13.716" y2="1.27" width="0.254" layer="94"/>
+<wire x1="13.716" y1="2.794" x2="19.05" y2="2.794" width="0.254" layer="94"/>
+<pin name="PL1" x="-11.43" y="-12.7" length="middle" rot="R90"/>
+<pin name="PL2" x="-6.35" y="-12.7" length="middle" rot="R90"/>
+<pin name="PL3" x="-1.27" y="-12.7" length="middle" rot="R90"/>
+<pin name="PR1" x="-11.43" y="12.7" length="middle" rot="R270"/>
+<pin name="PR2" x="-6.35" y="12.7" length="middle" rot="R270"/>
+<pin name="PR3" x="-1.27" y="12.7" length="middle" rot="R270"/>
+<text x="-10.668" y="-0.508" size="0.8128" layer="94">Pression button</text>
 </symbol>
 <symbol name="MICROSD_SMALL_READER_SYMBOL" urn="urn:adsk.eagle:symbol:44017968/1" library_version="37">
 <wire x1="0" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
@@ -270,7 +269,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PRESSION_BUTTON" urn="urn:adsk.eagle:component:43483816/3" library_version="37">
+<deviceset name="PRESSION_BUTTON" urn="urn:adsk.eagle:component:43483816/4" library_version="38">
 <gates>
 <gate name="G$1" symbol="PRESSION_BUTTON_SYMBOL" x="-2.54" y="0"/>
 </gates>
@@ -676,7 +675,7 @@
 <text x="106.68" y="120.904" size="1.778" layer="91">Sinais optoacplador</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="2.54" y="71.12" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="17.78" y="71.12" smashed="yes"/>
 <instance part="U$2" gate="G$1" x="-35.56" y="7.62" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="48.26" y="114.3" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="66.04" y="114.3" smashed="yes"/>
@@ -888,31 +887,19 @@
 <label x="45.72" y="88.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PR2"/>
-<wire x1="11.43" y1="83.82" x2="11.43" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="11.43" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
-<label x="11.176" y="87.122" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$1" gate="G$1" pin="PL1"/>
+<wire x1="6.35" y1="58.42" x2="6.35" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="6.35" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<label x="5.08" y="43.18" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="PL2"/>
-<wire x1="11.43" y1="58.42" x2="11.43" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="11.43" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
-<label x="9.398" y="55.118" size="1.778" layer="95" rot="R270"/>
+<pinref part="U$1" gate="G$1" pin="PR1"/>
+<wire x1="6.35" y1="83.82" x2="6.35" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="6.35" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
+<label x="5.08" y="88.9" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VIN" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PR3"/>
-<wire x1="16.51" y1="83.82" x2="16.51" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="16.51" y1="93.98" x2="17.78" y2="93.98" width="0.1524" layer="91"/>
-<label x="16.256" y="90.424" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="PL3"/>
-<wire x1="16.51" y1="58.42" x2="16.51" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="16.51" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
-<label x="16.51" y="48.006" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="VIN"/>
 <wire x1="40.64" y1="0" x2="33.02" y2="0" width="0.1524" layer="91"/>
@@ -923,19 +910,17 @@
 <wire x1="137.16" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
 <label x="137.16" y="73.66" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PR1"/>
-<wire x1="6.35" y1="83.82" x2="6.35" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="6.35" y1="93.98" x2="7.62" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PL2"/>
+<wire x1="11.43" y1="58.42" x2="11.43" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="11.43" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
+<label x="9.398" y="55.118" size="1.778" layer="95" rot="R270"/>
 </segment>
-</net>
-<net name="N$6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PL1"/>
-<wire x1="6.35" y1="58.42" x2="6.35" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="6.35" y1="48.26" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PR2"/>
+<wire x1="11.43" y1="83.82" x2="11.43" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="11.43" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
+<label x="11.176" y="87.122" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="5V" class="0">
