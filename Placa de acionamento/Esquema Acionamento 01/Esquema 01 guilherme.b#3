@@ -1858,6 +1858,14 @@ design rules under a new name.</description>
 <contactref element="GND" pad="P2"/>
 <contactref element="GND" pad="P1"/>
 <contactref element="BATERIA" pad="P1"/>
+<wire x1="7.62" y1="22.86" x2="12.7" y2="17.78" width="1" layer="1"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="16.51" width="1" layer="1"/>
+<wire x1="12.7" y1="16.51" x2="16.51" y2="12.7" width="1" layer="1"/>
+<wire x1="16.51" y1="12.7" x2="17.78" y2="12.7" width="1" layer="1"/>
+<wire x1="19.05" y1="7.62" x2="19.05" y2="11.43" width="1" layer="1"/>
+<wire x1="19.05" y1="11.43" x2="17.78" y2="12.7" width="1" layer="1"/>
+<wire x1="9.398" y1="35.941" x2="9.398" y2="24.638" width="1" layer="1"/>
+<wire x1="9.398" y1="24.638" x2="7.62" y2="22.86" width="1" layer="1"/>
 <wire x1="52.07" y1="41.91" x2="63.5" y2="49.53" width="0" layer="19" extent="1-1"/>
 <wire x1="38.1" y1="41.91" x2="52.07" y2="41.91" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="48.26" x2="38.1" y2="41.91" width="0" layer="19" extent="1-1"/>
@@ -1865,15 +1873,11 @@ design rules under a new name.</description>
 <wire x1="11.43" y1="53.34" x2="20.32" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="6.35" y1="43.18" x2="11.43" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="9.398" y1="35.941" x2="6.35" y2="43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="33.02" x2="9.398" y2="35.941" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="33.02" x2="9.398" y2="35.941" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="22.86" x2="7.62" y2="33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="16.51" x2="7.62" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="12.7" x2="12.7" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="7.62" x2="17.78" y2="12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="7.62" x2="19.05" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="5.08" x2="21.59" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="7.62" x2="19.05" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="33.02" x2="9.398" y2="35.941" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="33.02" x2="9.398" y2="35.941" width="0" layer="19" extent="1-1"/>
 <wire x1="33.02" y1="15.24" x2="21.59" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="35.56" y1="13.97" x2="33.02" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="33.02" y1="20.32" x2="33.02" y2="15.24" width="0" layer="19" extent="1-1"/>
@@ -1883,8 +1887,8 @@ design rules under a new name.</description>
 <wire x1="58.42" y1="20.32" x2="49.53" y2="22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="58.42" y1="16.51" x2="58.42" y2="20.32" width="0" layer="19" extent="1-1"/>
 <wire x1="57.15" y1="13.97" x2="58.42" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="62.23" y1="7.62" x2="57.15" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="55.88" y1="7.62" x2="16.51" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="55.88" y1="7.62" x2="57.15" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="7.62" x2="55.88" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SKIB1">
 <contactref element="Q1" pad="1"/>
@@ -1901,10 +1905,10 @@ design rules under a new name.</description>
 <contactref element="SP" pad="+"/>
 <wire x1="62.23" y1="41.91" x2="59.69" y2="44.45" width="2.54" layer="1"/>
 <wire x1="59.69" y1="44.45" x2="54.61" y2="44.45" width="2.54" layer="1"/>
-<wire x1="53.3654" y1="45.6946" x2="54.61" y2="44.45" width="2.54" layer="1"/>
-<wire x1="57.3786" y1="10.3886" x2="62.23" y2="15.24" width="2.54" layer="1"/>
-<wire x1="62.23" y1="15.24" x2="62.23" y2="41.91" width="2.54" layer="1"/>
-<wire x1="54.61" y1="44.45" x2="41.91" y2="44.45" width="2.54" layer="1"/>
+<wire x1="53.5686" y1="7.8486" x2="62.23" y2="16.51" width="2.54" layer="1"/>
+<wire x1="62.23" y1="16.51" x2="62.23" y2="41.91" width="2.54" layer="1"/>
+<wire x1="54.61" y1="44.45" x2="53.34" y2="44.45" width="2.54" layer="1"/>
+<wire x1="53.34" y1="44.45" x2="41.91" y2="44.45" width="2.54" layer="1"/>
 <wire x1="41.91" y1="44.45" x2="40.64" y2="45.72" width="2.54" layer="1"/>
 <wire x1="40.64" y1="45.72" x2="40.64" y2="49.53" width="2.54" layer="1"/>
 <wire x1="40.64" y1="45.72" x2="36.83" y2="45.72" width="2.54" layer="1"/>
@@ -1913,9 +1917,10 @@ design rules under a new name.</description>
 <contactref element="BATERIA" pad="P2"/>
 <contactref element="SKIB1" pad="P2"/>
 <contactref element="SKIB2" pad="P2"/>
-<wire x1="53.34" y1="7.62" x2="57.3786" y2="10.3886" width="0" layer="19" extent="1-1"/>
-<wire x1="48.26" y1="50.8" x2="53.34" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="44.45" x2="53.34" y2="44.45" width="2.54" layer="1"/>
 <wire x1="40.64" y1="50.8" x2="48.26" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="49.53" x2="40.64" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="7.62" x2="53.5686" y2="7.8486" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SKIB2">
 <contactref element="Q2" pad="1"/>
@@ -1991,7 +1996,7 @@ design rules under a new name.</description>
 <wire x1="26.67" y1="15.24" x2="31.55119375" y2="15.24" width="1.016" layer="1"/>
 <wire x1="41.6786" y1="16.2786" x2="43.18" y2="17.78" width="1.016" layer="1"/>
 <contactref element="SKIB1" pad="P1"/>
-<wire x1="50.8" y1="50.8" x2="43.18" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="20.32" x2="50.8" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R7" pad="2"/>
