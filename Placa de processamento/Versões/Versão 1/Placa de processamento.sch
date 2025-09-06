@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -730,18 +730,18 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="PRESSION_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:43483815/3"/>
-<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MICROSD_SMALL_READER" device="" package3d_urn="urn:adsk.eagle:package:44017969/2"/>
+<part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="PRESSION_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:43483815/3" override_package3d_urn="urn:adsk.eagle:package:43483815/4" override_package_urn="urn:adsk.eagle:footprint:43483813/3"/>
+<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MICROSD_SMALL_READER" device="" package3d_urn="urn:adsk.eagle:package:44017969/2" override_package3d_urn="urn:adsk.eagle:package:44017969/3" override_package_urn="urn:adsk.eagle:footprint:44017967/2"/>
 <part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
 <part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
 <part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
 <part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_MODULE" device="" package3d_urn="urn:adsk.eagle:package:39608400/5"/>
+<part name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_MODULE" device="" package3d_urn="urn:adsk.eagle:package:39608400/5" override_package3d_urn="urn:adsk.eagle:package:49474690/2" override_package_urn="urn:adsk.eagle:footprint:39608398/5"/>
 <part name="U$8" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="E22-400T30D" device="" package3d_urn="urn:adsk.eagle:package:40965099/4"/>
 <part name="U$9" library="ESP32-DEVKITV1" library_urn="urn:adsk.eagle:library:44018017" deviceset="ESP32DEVKITV1" device="" package3d_urn="urn:adsk.eagle:package:44018021/1"/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1"/>
+<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49474688/2" override_package_urn="urn:adsk.eagle:footprint:30303/1"/>
 <part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1"/>
+<part name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1" override_package3d_urn="urn:adsk.eagle:package:49474686/2" override_package_urn="urn:adsk.eagle:footprint:5250/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1150,6 +1150,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

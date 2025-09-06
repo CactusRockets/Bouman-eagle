@@ -610,8 +610,10 @@
 <sheet>
 <plain>
 <text x="80.01" y="8.89" size="1.778" layer="91">Sinais Skibs</text>
-<text x="101.6" y="8.636" size="1.778" layer="91">Buzzer e 3V3</text>
+<text x="101.6" y="8.636" size="1.778" layer="91">Sinal e 3V3</text>
 <text x="128.27" y="8.89" size="1.778" layer="91">Bateria</text>
+<text x="145.796" y="8.636" size="1.778" layer="91">Comunicação serial</text>
+<text x="176.022" y="8.89" size="1.778" layer="91">Optoacopladores</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="27.94" y="58.42" smashed="yes"/>
@@ -725,9 +727,9 @@
 <label x="243.84" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="IO4"/>
-<wire x1="119.38" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
-<label x="129.54" y="40.64" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="IO14"/>
+<wire x1="83.82" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<label x="73.66" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -863,14 +865,14 @@
 </net>
 <net name="SIGNAL1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="IO14"/>
-<wire x1="83.82" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
-<label x="73.66" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$5" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="-7.62" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
 <label x="106.68" y="-22.86" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="IO27"/>
+<wire x1="83.82" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="73.66" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
