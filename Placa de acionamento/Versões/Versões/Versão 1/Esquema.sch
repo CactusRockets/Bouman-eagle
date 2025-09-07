@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7997,44 +7997,43 @@ part number 2062-2P from STA</description>
 </class>
 </classes>
 <parts>
-<part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="IRF540" device="" package3d_urn="urn:adsk.eagle:package:28520/1" override_package3d_urn="urn:adsk.eagle:package:49474201/2" override_package_urn="urn:adsk.eagle:footprint:28453/1"/>
+<part name="Q1" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="IRF540" device="" package3d_urn="urn:adsk.eagle:package:28520/1"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="IRF540" device="" package3d_urn="urn:adsk.eagle:package:28520/1"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q3" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" deviceset="IRF540" device="" package3d_urn="urn:adsk.eagle:package:28520/1" override_package3d_urn="urn:adsk.eagle:package:49474191/2" override_package_urn="urn:adsk.eagle:footprint:28453/1"/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SP" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1" override_package3d_urn="urn:adsk.eagle:package:49474189/2" override_package_urn="urn:adsk.eagle:footprint:5250/1"/>
+<part name="SP" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="OP1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:49474184/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
+<part name="OP1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="LSKIB1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="5mm"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="OP2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:49474187/2" override_package_urn="urn:adsk.eagle:footprint:21858/1"/>
+<part name="OP2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="PC817" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1k"/>
 <part name="LSKIB2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="5mm"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1-S2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" override_package3d_urn="urn:adsk.eagle:package:49474216/2" override_package_urn="urn:adsk.eagle:footprint:49474217/1"/>
-<part name="SK1-SK2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" override_package3d_urn="urn:adsk.eagle:package:49474228/2" override_package_urn="urn:adsk.eagle:footprint:49474229/1"/>
-<part name="3.3-BUZ" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" override_package3d_urn="urn:adsk.eagle:package:49474225/2" override_package_urn="urn:adsk.eagle:footprint:49474226/1"/>
-<part name="GND" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" override_package3d_urn="urn:adsk.eagle:package:49474222/2" override_package_urn="urn:adsk.eagle:footprint:49474223/1"/>
+<part name="S1-S2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="SK1-SK2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="3.3-BUZ" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="GND" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="BATERIA" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" override_package3d_urn="urn:adsk.eagle:package:49474231/2" override_package_urn="urn:adsk.eagle:footprint:49474232/1"/>
-<part name="SKIB1.0" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" override_package3d_urn="urn:adsk.eagle:package:49474213/2" override_package_urn="urn:adsk.eagle:footprint:49474214/1"/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="SKIB2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" override_package3d_urn="urn:adsk.eagle:package:49474207/2" override_package_urn="urn:adsk.eagle:footprint:49474208/1"/>
-<part name="SKIB1.1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" override_package3d_urn="urn:adsk.eagle:package:49474210/2" override_package_urn="urn:adsk.eagle:footprint:49474211/1"/>
+<part name="BATERIA" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="SKIB1.0" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="SKIB2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="SKIB1.1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 </parts>
 <sheets>
 <sheet>
@@ -8064,9 +8063,8 @@ part number 2062-2P from STA</description>
 <instance part="GND8" gate="1" x="68.58" y="2.54" smashed="yes">
 <attribute name="VALUE" x="66.04" y="0" size="1.778" layer="96"/>
 </instance>
-<instance part="Q3" gate="G$1" x="60.96" y="-55.88" smashed="yes">
-<attribute name="VALUE" x="49.53" y="-55.88" size="1.778" layer="96"/>
-<attribute name="NAME" x="49.53" y="-53.34" size="1.778" layer="95"/>
+<instance part="P+2" gate="VCC" x="68.58" y="38.1" smashed="yes">
+<attribute name="VALUE" x="66.04" y="35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND2" gate="1" x="66.04" y="-68.58" smashed="yes">
 <attribute name="VALUE" x="63.5" y="-71.12" size="1.778" layer="96"/>
@@ -8167,12 +8165,9 @@ part number 2062-2P from STA</description>
 <attribute name="VALUE" x="43.18" y="76.454" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="43.18" y="86.868" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="P+4" gate="VCC" x="68.58" y="45.72" smashed="yes">
-<attribute name="VALUE" x="66.04" y="43.18" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SKIB2" gate="G$1" x="45.72" y="33.02" smashed="yes">
-<attribute name="VALUE" x="43.18" y="28.194" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="43.18" y="38.608" size="1.778" layer="95" font="vector"/>
+<instance part="SKIB2" gate="G$1" x="45.72" y="25.4" smashed="yes">
+<attribute name="VALUE" x="43.18" y="20.574" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="43.18" y="30.988" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SKIB1.1" gate="G$1" x="27.94" y="81.28" smashed="yes">
 <attribute name="VALUE" x="25.4" y="76.454" size="1.778" layer="96" font="vector"/>
@@ -8185,14 +8180,15 @@ part number 2062-2P from STA</description>
 <net name="BUZZER" class="0">
 <segment>
 <label x="38.1" y="-58.42" size="1.778" layer="95"/>
-<pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="55.88" y1="-58.42" x2="53.34" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="-60.96" x2="53.34" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="3.3-BUZ" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="-55.88" x2="53.34" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="-55.88" x2="53.34" y2="-58.42" width="0.1524" layer="91"/>
-<junction x="53.34" y="-58.42"/>
+<wire x1="53.34" y1="-55.88" x2="53.34" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="SP" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="-27.94" x2="66.04" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-20.32" x2="53.34" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="-20.32" x2="53.34" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="53.34" y="-55.88"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8214,8 +8210,10 @@ part number 2062-2P from STA</description>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="66.04" y1="-66.04" x2="66.04" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-66.04" x2="66.04" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="SP" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="-60.96" x2="66.04" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-58.42" x2="66.04" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LSKIB1" gate="G$1" pin="C"/>
@@ -8298,23 +8296,19 @@ part number 2062-2P from STA</description>
 <label x="58.42" y="86.36" size="1.778" layer="95"/>
 <pinref part="SKIB1.0" gate="G$1" pin="2"/>
 <pinref part="SKIB1.1" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="83.82" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="83.82" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="83.82" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="93.98" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
 <junction x="55.88" y="83.82"/>
 </segment>
 <segment>
-<pinref part="SP" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="-22.86" x2="66.04" y2="-27.94" width="0.1524" layer="91"/>
-<label x="66.04" y="-22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="68.58" y1="43.18" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="35.56" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<label x="58.42" y="38.1" size="1.778" layer="95"/>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+<wire x1="68.58" y1="35.56" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="27.94" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
+<label x="58.42" y="30.48" size="1.778" layer="95"/>
 <pinref part="SKIB2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -8330,13 +8324,6 @@ part number 2062-2P from STA</description>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="SK1-SK2" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="Q3" gate="G$1" pin="D"/>
-<pinref part="SP" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="-53.34" x2="66.04" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8404,8 +8391,9 @@ part number 2062-2P from STA</description>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="SKIB1.0" gate="G$1" pin="1"/>
 <pinref part="SKIB1.1" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="81.28" x2="35.56" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="81.28" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="73.66" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
 <junction x="55.88" y="81.28"/>
 </segment>
@@ -8436,14 +8424,13 @@ part number 2062-2P from STA</description>
 <label x="88.9" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="15.24" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="33.02" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<label x="58.42" y="27.94" size="1.778" layer="95"/>
-<pinref part="SKIB2" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="15.24" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="25.4" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <label x="58.42" y="20.32" size="1.778" layer="95"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
+<pinref part="SKIB2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SINAL_SKIB2" class="0">
@@ -8468,7 +8455,7 @@ part number 2062-2P from STA</description>
 <approved hash="113,1,155.617,89.0626,GND,,,,,"/>
 <approved hash="113,1,-5.75733,58.5826,BATERIA,,,,,"/>
 <approved hash="113,1,50.1227,83.9826,SKIB1.0,,,,,"/>
-<approved hash="113,1,50.1227,35.7226,SKIB2,,,,,"/>
+<approved hash="113,1,50.1227,28.1026,SKIB2,,,,,"/>
 <approved hash="113,1,32.3427,83.9826,SKIB1.1,,,,,"/>
 </errors>
 </schematic>
@@ -8488,11 +8475,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="9.4" severity="warning">
-Since Version 9.4, EAGLE supports the overriding of 3D packages
-in schematics and board files. Those overridden 3d packages
-will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 

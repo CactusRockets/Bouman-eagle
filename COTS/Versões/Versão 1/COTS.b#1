@@ -595,11 +595,12 @@ design rules under a new name.</description>
 <wire x1="66.72204375" y1="16.51" x2="67.016021875" y2="16.803978125" width="1.5" layer="16"/>
 <contactref element="SP2" pad="-"/>
 <contactref element="IC1" pad="GND"/>
-<wire x1="40.078" y1="16.5" x2="64.848" y2="16.5" width="0" layer="19" extent="1-1"/>
-<wire x1="13.081" y1="24.638" x2="40.078" y2="16.5" width="0" layer="19" extent="1-1"/>
-<wire x1="10.1955" y1="7.5955" x2="13.081" y2="24.638" width="0" layer="19" extent="1-1"/>
-<wire x1="27.94" y1="44.45" x2="9.652" y2="54.356" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="73.66" x2="27.94" y2="44.45" width="0" layer="19" extent="1-1"/>
+<polygon width="1.27" layer="1">
+<vertex x="0" y="80.01"/>
+<vertex x="76.2" y="80.01"/>
+<vertex x="76.2" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
 </signal>
 <signal name="SKIB1">
 <contactref element="U$2" pad="28"/>

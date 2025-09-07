@@ -559,7 +559,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="3" x="11.938" y="54.356" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.128" y="51.181" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXL" package3d_urn="urn:adsk.eagle:package:30361/1" value="" x="27.94" y="48.26" smashed="yes">
+<element name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXL" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49478860/2" override_package_urn="urn:adsk.eagle:footprint:30303/1" value="" x="27.94" y="48.26" smashed="yes">
 <attribute name="NAME" x="24.13" y="53.34" size="1.778" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="10" x="27.94" y="48.26" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.003" y="50.8" size="1.778" layer="27" ratio="10"/>

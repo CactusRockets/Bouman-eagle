@@ -698,7 +698,7 @@
 <part name="U$9" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
 <part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="PRESSION_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:43483815/3" override_package3d_urn="urn:adsk.eagle:package:49474180/2" override_package_urn="urn:adsk.eagle:footprint:43483813/3"/>
 <part name="SP2" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1" override_package3d_urn="urn:adsk.eagle:package:49473303/2" override_package_urn="urn:adsk.eagle:footprint:5250/1"/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1"/>
+<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49478860/2" override_package_urn="urn:adsk.eagle:footprint:30303/1"/>
 </parts>
 <sheets>
 <sheet>
