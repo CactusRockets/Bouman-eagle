@@ -618,6 +618,7 @@
 <text x="83.82" y="114.3" size="1.778" layer="91">O sinal de ativação dos Skibs virá dessa placa dos pinos 12 e 13 do esp32</text>
 <text x="83.82" y="109.22" size="1.778" layer="91">A alimentação de 3.3v juntamente com o sinal do buzzer virá dessa placa</text>
 <text x="83.82" y="104.14" size="1.778" layer="91">utilizaremos o conector de bateria e o GND dessa placa</text>
+<text x="-83.82" y="127" size="1.778" layer="91">Não será usado para conectar</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="27.94" y="58.42" smashed="yes"/>
