@@ -131,22 +131,18 @@
 <wire x1="0.508" y1="-2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
 <text x="-2.54" y="2.794" size="0.6096" layer="21">JST 2.54X2P</text>
 </package>
-<package name="PRESSION_BUTTON_FOOTPRINT" urn="urn:adsk.eagle:footprint:43483813/3" library_version="38">
-<pad name="PL1" x="-7.803" y="-1.302" drill="1.1"/>
-<pad name="PL2" x="-4.803" y="-1.302" drill="1.1"/>
-<pad name="PL3" x="-1.803" y="-1.302" drill="1.1"/>
-<pad name="PR1" x="-7.803" y="1.198" drill="1.1"/>
-<pad name="PR2" x="-4.803" y="1.198" drill="1.1"/>
-<pad name="PR3" x="-1.803" y="1.198" drill="1.1"/>
-<text x="3.175" y="-0.508" size="0.6096" layer="21">Pression button</text>
-<wire x1="-11.303" y1="-3.921" x2="13.397" y2="-3.921" width="0.127" layer="21"/>
-<wire x1="13.397" y1="-3.921" x2="13.397" y2="4.079" width="0.127" layer="21"/>
-<wire x1="13.397" y1="4.079" x2="-11.303" y2="4.079" width="0.127" layer="21"/>
-<wire x1="-11.303" y1="4.079" x2="-11.303" y2="-3.921" width="0.127" layer="21"/>
-<hole x="-11.176" y="3.937" drill="2"/>
-<hole x="-11.176" y="-3.81" drill="2"/>
-<hole x="1.778" y="-3.81" drill="2"/>
-<hole x="1.778" y="3.937" drill="2"/>
+<package name="CHAVESS-5GL" urn="urn:adsk.eagle:footprint:45208056/12" library_version="55">
+<wire x1="-10.922" y1="-2.54" x2="10.16" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="10.16" y1="3.81" x2="-10.922" y2="3.81" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-10.922" y1="3.81" x2="-10.922" y2="-2.54" width="0.2032" layer="21"/>
+<pad name="P$1" x="-9.144" y="0.762" drill="3.8" diameter="3.048" shape="long" rot="R90"/>
+<pad name="P$2" x="-0.635" y="0.762" drill="3.8" diameter="3.048" shape="long" rot="R90"/>
+<pad name="P$3" x="7.239" y="0.762" drill="3.8" diameter="3.048" shape="long" rot="R90"/>
+<text x="-7.493" y="2.413" size="0.8128" layer="21">COM</text>
+<text x="0.762" y="2.413" size="0.8128" layer="21">NO</text>
+<text x="8.636" y="2.667" size="0.8128" layer="21">NC</text>
 </package>
 </packages>
 <packages3d>
@@ -165,9 +161,9 @@
 <packageinstance name="JST2.54X2P_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="PRESSION_BUTTON_FOOTPRINT" urn="urn:adsk.eagle:package:43483815/3" type="box" library_version="38">
+<package3d name="CHAVESS-5GL" urn="urn:adsk.eagle:package:45208058/14" type="model" library_version="55">
 <packageinstances>
-<packageinstance name="PRESSION_BUTTON_FOOTPRINT"/>
+<packageinstance name="CHAVESS-5GL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -217,29 +213,40 @@
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-6.858" y="2.54" size="1.6764" layer="94">JST 2.54X2P</text>
 </symbol>
-<symbol name="PRESSION_BUTTON_SYMBOL" urn="urn:adsk.eagle:symbol:43483814/3" library_version="38">
-<wire x1="-16.51" y1="7.62" x2="-16.51" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-16.51" y1="-7.62" x2="3.81" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-16.51" y1="7.62" x2="3.81" y2="7.62" width="0.254" layer="94"/>
-<wire x1="3.81" y1="7.62" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="3.81" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.27" x2="13.716" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="13.716" y1="-1.27" x2="16.51" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="16.51" y1="-1.27" x2="16.51" y2="1.27" width="0.254" layer="94"/>
-<wire x1="16.51" y1="1.27" x2="13.716" y2="1.27" width="0.254" layer="94"/>
-<wire x1="13.716" y1="1.27" x2="4.064" y2="1.27" width="0.254" layer="94"/>
-<wire x1="13.716" y1="-1.27" x2="13.716" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="13.716" y1="-2.794" x2="19.05" y2="-2.794" width="0.254" layer="94"/>
-<wire x1="19.05" y1="-2.794" x2="19.05" y2="2.794" width="0.254" layer="94"/>
-<wire x1="13.716" y1="2.794" x2="13.716" y2="1.27" width="0.254" layer="94"/>
-<wire x1="13.716" y1="2.794" x2="19.05" y2="2.794" width="0.254" layer="94"/>
-<pin name="PL1" x="-11.43" y="-12.7" length="middle" rot="R90"/>
-<pin name="PL2" x="-6.35" y="-12.7" length="middle" rot="R90"/>
-<pin name="PL3" x="-1.27" y="-12.7" length="middle" rot="R90"/>
-<pin name="PR1" x="-11.43" y="12.7" length="middle" rot="R270"/>
-<pin name="PR2" x="-6.35" y="12.7" length="middle" rot="R270"/>
-<pin name="PR3" x="-1.27" y="12.7" length="middle" rot="R270"/>
-<text x="-10.668" y="-0.508" size="0.8128" layer="94">Pression button</text>
+<symbol name="CHAVE_SS-5GL" urn="urn:adsk.eagle:symbol:45208057/2" library_version="55">
+<wire x1="-22.86" y1="12.7" x2="-22.86" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-7.62" x2="20.32" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="17.78" x2="-5.08" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-2.54" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="17.78" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="20.32" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="12.7" x2="-17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="12.7" x2="7.62" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<circle x="-10.16" y="-12.7" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="-12.7" radius="2.54" width="0.254" layer="94"/>
+<circle x="12.7" y="-12.7" radius="2.54" width="0.254" layer="94"/>
+<text x="-12.7" y="-2.54" size="2.54" layer="94" rot="R90">COM</text>
+<text x="-2.54" y="-2.54" size="2.54" layer="94" rot="R90">NO</text>
+<text x="10.16" y="-2.54" size="2.54" layer="94" rot="R90">NC</text>
+<text x="-12.7" y="-12.7" size="2.54" layer="94" rot="R180">1</text>
+<text x="-2.54" y="-12.7" size="2.54" layer="94" rot="R180">2</text>
+<text x="10.16" y="-12.7" size="2.54" layer="94" rot="R180">3</text>
+<text x="-20.32" y="10.16" size="1.6764" layer="91" rot="R270">CHAVE SS-5GL</text>
+<pin name="P$1" x="-10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="P$2" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="P$3" x="12.7" y="-12.7" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -315,22 +322,19 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="PRESSION_BUTTON" urn="urn:adsk.eagle:component:43483816/4" library_version="38">
+<deviceset name="CHAVE_SS-5GL" urn="urn:adsk.eagle:component:45208059/12" library_version="55">
 <gates>
-<gate name="G$1" symbol="PRESSION_BUTTON_SYMBOL" x="-2.54" y="0"/>
+<gate name="G$1" symbol="CHAVE_SS-5GL" x="2.54" y="-5.08"/>
 </gates>
 <devices>
-<device name="" package="PRESSION_BUTTON_FOOTPRINT">
+<device name="" package="CHAVESS-5GL">
 <connects>
-<connect gate="G$1" pin="PL1" pad="PL1"/>
-<connect gate="G$1" pin="PL2" pad="PL2"/>
-<connect gate="G$1" pin="PL3" pad="PL3"/>
-<connect gate="G$1" pin="PR1" pad="PR1"/>
-<connect gate="G$1" pin="PR2" pad="PR2"/>
-<connect gate="G$1" pin="PR3" pad="PR3"/>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43483815/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:45208058/14"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -696,9 +700,9 @@
 <part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
 <part name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
 <part name="U$9" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="PRESSION_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:43483815/3" override_package3d_urn="urn:adsk.eagle:package:49474180/2" override_package_urn="urn:adsk.eagle:footprint:43483813/3"/>
-<part name="SP2" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1" override_package3d_urn="urn:adsk.eagle:package:49473303/2" override_package_urn="urn:adsk.eagle:footprint:5250/1"/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49478860/2" override_package_urn="urn:adsk.eagle:footprint:30303/1"/>
+<part name="SP2" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1" override_package3d_urn="urn:adsk.eagle:package:49481862/2" override_package_urn="urn:adsk.eagle:footprint:5250/1"/>
+<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49481863/2" override_package_urn="urn:adsk.eagle:footprint:30303/1"/>
+<part name="U$8" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="CHAVE_SS-5GL" device="" package3d_urn="urn:adsk.eagle:package:45208058/14"/>
 </parts>
 <sheets>
 <sheet>
@@ -725,7 +729,6 @@
 <instance part="U$6" gate="G$1" x="43.18" y="116.84" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="60.96" y="116.84" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="-73.66" y="116.84" smashed="yes"/>
-<instance part="U$10" gate="G$1" x="195.58" y="58.42" smashed="yes"/>
 <instance part="SP2" gate="G$1" x="236.22" y="53.34" smashed="yes">
 <attribute name="NAME" x="232.41" y="59.69" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="50.165" size="1.778" layer="96"/>
@@ -734,6 +737,7 @@
 <attribute name="NAME" x="-33.02" y="60.96" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-33.02" y="58.42" size="1.778" layer="96"/>
 </instance>
+<instance part="U$8" gate="G$1" x="236.22" y="101.6" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -748,21 +752,15 @@
 <label x="165.1" y="38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="PL1"/>
-<wire x1="184.15" y1="45.72" x2="184.15" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="184.15" y1="38.1" x2="182.88" y2="38.1" width="0.1524" layer="91"/>
-<label x="182.88" y="33.02" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U$10" gate="G$1" pin="PR1"/>
-<wire x1="184.15" y1="71.12" x2="184.15" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="184.15" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
-<label x="182.88" y="78.74" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="A" pin="IN"/>
 <wire x1="-43.18" y1="68.58" x2="-48.26" y2="68.58" width="0.1524" layer="91"/>
 <label x="-50.8" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="P$1"/>
+<wire x1="226.06" y1="88.9" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
+<label x="220.98" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -911,16 +909,10 @@
 <label x="167.64" y="30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="PL2"/>
-<wire x1="189.23" y1="45.72" x2="189.23" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="38.1" x2="187.96" y2="38.1" width="0.1524" layer="91"/>
-<label x="187.96" y="27.94" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U$10" gate="G$1" pin="PR2"/>
-<wire x1="189.23" y1="71.12" x2="189.23" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
-<label x="187.96" y="76.2" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$8" gate="G$1" pin="P$3"/>
+<wire x1="248.92" y1="88.9" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
+<label x="243.84" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RX2" class="0">
