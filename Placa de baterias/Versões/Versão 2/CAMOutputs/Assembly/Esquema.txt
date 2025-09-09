@@ -1,0 +1,5 @@
+Partlist exported from C:/Users/Daniel Alencar/Documents/EAGLE/projects/Joliot-eagle/Placa de baterias/Versões/Versão 2/Esquema.sch at 3/19/2025 1:43 PM
+
+Qty Value      Device     Package              Parts                   Description                                            MF    MPN OC_FARNELL OC_NEWARK POPULARITY
+1   5566-4     5566-4     5566-4               X1                      Mini FIT connector 4 pol                               MOLEX     unknown    unknown   1         
+5   JST2.54X2P JST2.54X2P JST2.54X2P_FOOTPRINT U$1, U$2, U$3, U$4, U$5 Conector JST 2 pinos (2.54mm de distância entre pinos)                                          
