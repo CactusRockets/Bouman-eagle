@@ -614,6 +614,10 @@
 <text x="128.27" y="8.89" size="1.778" layer="91">Bateria</text>
 <text x="145.796" y="8.636" size="1.778" layer="91">Comunicação serial</text>
 <text x="176.022" y="8.89" size="1.778" layer="91">Optoacopladores</text>
+<text x="83.82" y="119.38" size="1.778" layer="91">Utilizaremos as conexões de comunicação  serial dessa placa</text>
+<text x="83.82" y="114.3" size="1.778" layer="91">O sinal de ativação dos Skibs virá dessa placa dos pinos 12 e 13 do esp32</text>
+<text x="83.82" y="109.22" size="1.778" layer="91">A alimentação de 3.3v juntamente com o sinal do buzzer virá dessa placa</text>
+<text x="83.82" y="104.14" size="1.778" layer="91">utilizaremos o conector de bateria e o GND dessa placa</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="27.94" y="58.42" smashed="yes"/>
