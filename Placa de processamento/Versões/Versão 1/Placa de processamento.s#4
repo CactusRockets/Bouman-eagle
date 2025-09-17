@@ -751,6 +751,9 @@
 <text x="77.216" y="120.904" size="1.778" layer="91">Sinal e 3V3</text>
 <text x="106.68" y="120.904" size="1.778" layer="91">Optoacopladores</text>
 <text x="137.16" y="120.65" size="1.778" layer="91">Comunicação serial</text>
+<text x="38.1" y="144.78" size="1.778" layer="91">Seram utilizados os pinos 34 e 35 para os Octocopladores, utilizaremos a conexão de jst de optocopladores dessa placa para isso.</text>
+<text x="38.1" y="139.7" size="1.778" layer="91">Será utilizado as conexões seriais, dessa placa</text>
+<text x="38.1" y="134.62" size="1.778" layer="91">Utilizaremos o conector de GND e Bateria dessa placa</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="71.12" smashed="yes"/>
