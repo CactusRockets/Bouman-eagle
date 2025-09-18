@@ -909,10 +909,10 @@
 <label x="167.64" y="30.48" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="P$2"/>
-<wire x1="236.22" y1="88.9" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="78.74" x2="233.68" y2="78.74" width="0.1524" layer="91"/>
-<label x="231.14" y="76.2" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$8" gate="G$1" pin="P$3"/>
+<wire x1="248.92" y1="88.9" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="78.74" x2="246.38" y2="78.74" width="0.1524" layer="91"/>
+<label x="243.84" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="RX2" class="0">
