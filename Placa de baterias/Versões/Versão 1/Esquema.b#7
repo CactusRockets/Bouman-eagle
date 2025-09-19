@@ -75,14 +75,14 @@
 <fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGUxNzg" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGUxNzgjRDIwMjIwNjExNTMyNjQzNTAx" f3durn="urn:adsk.wipprod:dm.lineage:PkS-i6vOSt6JP8FzX6P3mg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="dae5b02e-3f86-4753-98fb-deca12bab6cc" lastsyncedrevisionid="dae5b02e-3f86-4753-98fb-deca12bab6cc" lastboardhashguid="e1b1cba6-bc9d-dcd1-c240-c72e3c8944e4" lastpushedtime="2025-07-01T22:19:30Z" linktopcb3d="true"/>
 <plain>
 <hole x="39.37" y="12.7" drill="3"/>
-<hole x="49.53" y="3.81" drill="3"/>
-<hole x="-3.81" y="2.54" drill="3"/>
+<hole x="39.37" y="0" drill="3"/>
+<hole x="2.54" y="0" drill="3"/>
 <hole x="2.54" y="12.7" drill="3"/>
 <wire x1="41.91" y1="-2.54" x2="41.91" y2="15.24" width="0" layer="20"/>
 <wire x1="0" y1="15.24" x2="41.91" y2="15.24" width="0" layer="20" curve="-108.924644"/>
 <wire x1="0" y1="15.24" x2="0" y2="-2.54" width="0" layer="20"/>
 <wire x1="0" y1="-2.54" x2="41.91" y2="-2.54" width="0" layer="20"/>
-<dimension x1="0" y1="-3.81" x2="35.56" y2="-3.81" x3="17.78" y3="-6.35" textsize="1.778" layer="27"/>
+<dimension x1="0" y1="-3.81" x2="41.91" y2="-3.81" x3="20.955" y3="-6.35" textsize="1.778" layer="27"/>
 </plain>
 <libraries>
 <library name="CRD" urn="urn:adsk.eagle:library:39051337">
