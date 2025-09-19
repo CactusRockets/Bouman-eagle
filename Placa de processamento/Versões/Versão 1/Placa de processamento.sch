@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -76,7 +76,7 @@
 <library name="CRD" urn="urn:adsk.eagle:library:39051337">
 <description>Componentes utilizados na Cactus Rockets Design</description>
 <packages>
-<package name="MICROSD_SMALL_READER_FOOTPRINT" urn="urn:adsk.eagle:footprint:44017967/2" library_version="37">
+<package name="MICROSD_SMALL_READER_FOOTPRINT" urn="urn:adsk.eagle:footprint:44017967/2" locally_modified="yes" library_version="58" library_locally_modified="yes">
 <wire x1="-8.509" y1="-9.144" x2="-8.509" y2="9.056" width="0.127" layer="21"/>
 <wire x1="-8.509" y1="9.056" x2="9.691" y2="9.056" width="0.127" layer="21"/>
 <wire x1="9.691" y1="9.056" x2="9.691" y2="-9.144" width="0.127" layer="21"/>
@@ -85,17 +85,17 @@
 <wire x1="19.812" y1="-5.207" x2="19.812" y2="5.08" width="0.127" layer="21"/>
 <wire x1="19.812" y1="5.08" x2="2.413" y2="5.08" width="0.127" layer="21"/>
 <wire x1="2.413" y1="5.08" x2="2.413" y2="-5.207" width="0.127" layer="21"/>
-<pad name="GND" x="-7.239" y="-6.35" drill="1.2"/>
-<pad name="MISO" x="-7.239" y="-3.81" drill="1.2"/>
-<pad name="CLK" x="-7.239" y="-1.27" drill="1.2"/>
-<pad name="MOSI" x="-7.239" y="1.27" drill="1.2"/>
-<pad name="CS" x="-7.239" y="3.81" drill="1.2"/>
-<pad name="3V3" x="-7.239" y="6.35" drill="1.2"/>
+<pad name="GND" x="-7.239" y="-6.35" drill="1.016" shape="long"/>
+<pad name="MISO" x="-7.239" y="-3.81" drill="1.016" shape="long"/>
+<pad name="CLK" x="-7.239" y="-1.27" drill="1.016" shape="long"/>
+<pad name="MOSI" x="-7.239" y="1.27" drill="1.016" shape="long"/>
+<pad name="CS" x="-7.239" y="3.81" drill="1.016" shape="long"/>
+<pad name="3V3" x="-7.239" y="6.35" drill="1.016" shape="long"/>
 <text x="-5.207" y="-8.001" size="0.8128" layer="21">MicroSD small reader</text>
 </package>
-<package name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:footprint:39191965/1" library_version="37">
-<pad name="1" x="-1.27" y="0" drill="0.9"/>
-<pad name="2" x="1.27" y="0" drill="0.9"/>
+<package name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:footprint:39191965/3" library_version="58">
+<pad name="1" x="-1.27" y="0" drill="1.016" diameter="1.27" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" diameter="1.27" shape="long" rot="R90"/>
 <wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-2.54" x2="-2.032" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="-2.54" x2="-0.508" y2="-2.54" width="0.127" layer="21"/>
@@ -112,18 +112,18 @@
 <wire x1="0.508" y1="-2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
 <text x="-2.54" y="2.794" size="0.6096" layer="21">JST 2.54X2P</text>
 </package>
-<package name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:footprint:39608398/5" library_version="37">
+<package name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:footprint:39608398/5" locally_modified="yes" library_version="58" library_locally_modified="yes">
 <wire x1="-12.7" y1="-17.78" x2="12.3" y2="-17.78" width="0.127" layer="21"/>
 <wire x1="12.3" y1="-17.78" x2="12.3" y2="17.22" width="0.127" layer="21"/>
 <wire x1="12.3" y1="17.22" x2="-12.7" y2="17.22" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="17.22" x2="-12.7" y2="-17.78" width="0.127" layer="21"/>
 <text x="-6.35" y="13.97" size="1.6764" layer="21">GPS module</text>
-<pad name="GND" x="-4.01" y="-16.51" drill="1.3"/>
-<pad name="TX" x="-1.47" y="-16.51" drill="1.3"/>
-<pad name="RX" x="1.07" y="-16.51" drill="1.3"/>
-<pad name="VCC" x="3.61" y="-16.51" drill="1.3"/>
+<pad name="GND" x="-4.01" y="-16.51" drill="1.143" diameter="1.778" shape="long" rot="R90"/>
+<pad name="TX" x="-1.47" y="-16.51" drill="1.143" diameter="1.778" shape="long" rot="R90"/>
+<pad name="RX" x="1.07" y="-16.51" drill="1.143" diameter="1.778" shape="long" rot="R90"/>
+<pad name="VCC" x="3.61" y="-16.51" drill="1.143" diameter="1.778" shape="long" rot="R90"/>
 </package>
-<package name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965097/4" library_version="37">
+<package name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:footprint:40965097/4" locally_modified="yes" library_version="58" library_locally_modified="yes">
 <wire x1="-17.78" y1="13.462" x2="-17.78" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="22.733" y1="-2.159" x2="34.163" y2="-2.159" width="0.127" layer="21"/>
 <wire x1="22.733" y1="-8.509" x2="22.733" y2="-2.159" width="0.127" layer="21"/>
@@ -135,13 +135,13 @@
 <wire x1="-17.78" y1="-10.16" x2="25.4" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="-17.78" y1="13.462" x2="25.4" y2="13.462" width="0.127" layer="21"/>
 <wire x1="25.4" y1="-10.16" x2="25.4" y2="13.462" width="0.127" layer="21"/>
-<pad name="TXD" x="-16.383" y="1.778" drill="1.3"/>
-<pad name="RXD" x="-16.383" y="4.318" drill="1.3"/>
-<pad name="M1" x="-16.383" y="6.858" drill="1.3"/>
-<pad name="M0" x="-16.383" y="9.398" drill="1.3"/>
-<pad name="AUX" x="-16.383" y="-0.762" drill="1.3"/>
-<pad name="VCC" x="-16.383" y="-3.302" drill="1.3"/>
-<pad name="GND" x="-16.383" y="-5.842" drill="1.3"/>
+<pad name="TXD" x="-16.383" y="1.778" drill="1.016" shape="long"/>
+<pad name="RXD" x="-16.383" y="4.318" drill="1.016" shape="long"/>
+<pad name="M1" x="-16.383" y="6.858" drill="1.016" shape="long"/>
+<pad name="M0" x="-16.383" y="9.398" drill="1.016" shape="long"/>
+<pad name="AUX" x="-16.383" y="-0.762" drill="1.016" shape="long"/>
+<pad name="VCC" x="-16.383" y="-3.302" drill="1.016" shape="long"/>
+<pad name="GND" x="-16.383" y="-5.842" drill="1.016" shape="long"/>
 <text x="-5.08" y="2.54" size="1.27" layer="21">E22-400T30D (LoRa)</text>
 </package>
 <package name="CHAVESS-5GL" urn="urn:adsk.eagle:footprint:45208056/12" library_version="55">
@@ -159,22 +159,22 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="MICROSD_SMALL_READER_FOOTPRINT" urn="urn:adsk.eagle:package:44017969/2" type="box" library_version="37">
+<package3d name="MICROSD_SMALL_READER_FOOTPRINT" urn="urn:adsk.eagle:package:44017969/2" type="box" library_version="58" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MICROSD_SMALL_READER_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:package:39191967/2" type="model" library_version="37">
+<package3d name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:package:39191967/4" type="model" library_version="58">
 <packageinstances>
 <packageinstance name="JST2.54X2P_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:package:39608400/5" type="box" library_version="37">
+<package3d name="GPS_MODULE_FOOTPRINT" urn="urn:adsk.eagle:package:39608400/7" type="model" library_version="58" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="GPS_MODULE_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:package:40965099/4" type="box" library_version="37">
+<package3d name="E22-400T30D_FOOTPRINT" urn="urn:adsk.eagle:package:40965099/5" type="model" library_version="58" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="E22-400T30D_FOOTPRINT"/>
 </packageinstances>
@@ -276,7 +276,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MICROSD_SMALL_READER" urn="urn:adsk.eagle:component:44017970/2" library_version="37">
+<deviceset name="MICROSD_SMALL_READER" urn="urn:adsk.eagle:component:44017970/2" library_version="58" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="MICROSD_SMALL_READER_SYMBOL" x="-7.62" y="-12.7"/>
 </gates>
@@ -299,7 +299,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JST2.54X2P" urn="urn:adsk.eagle:component:39191968/3" library_version="37">
+<deviceset name="JST2.54X2P" urn="urn:adsk.eagle:component:39191968/5" library_version="58">
 <description>Conector JST 2 pinos (2.54mm de distância entre pinos)</description>
 <gates>
 <gate name="G$1" symbol="JST2.54X2P_SYMBOL" x="0" y="0"/>
@@ -311,7 +311,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39191967/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39191967/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -319,7 +319,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="GPS_MODULE" urn="urn:adsk.eagle:component:39608401/6" library_version="37">
+<deviceset name="GPS_MODULE" urn="urn:adsk.eagle:component:39608401/7" library_version="58" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="GPS_MODULE_SYMBOL" x="0" y="5.08"/>
 </gates>
@@ -332,7 +332,7 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39608400/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39608400/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -340,23 +340,23 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="E22-400T30D" urn="urn:adsk.eagle:component:40965100/5" library_version="37">
+<deviceset name="E22-400T30D" urn="urn:adsk.eagle:component:40965100/7" library_version="58" library_locally_modified="yes">
 <gates>
-<gate name="G$1" symbol="E22-400T30D_SYMBOL" x="-2.54" y="2.54"/>
+<gate name="LORA_E22400T30D" symbol="E22-400T30D_SYMBOL" x="-2.54" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="E22-400T30D_FOOTPRINT">
 <connects>
-<connect gate="G$1" pin="AUX" pad="AUX"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="M0" pad="M0"/>
-<connect gate="G$1" pin="M1" pad="M1"/>
-<connect gate="G$1" pin="RXD" pad="RXD"/>
-<connect gate="G$1" pin="TXD" pad="TXD"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="LORA_E22400T30D" pin="AUX" pad="AUX"/>
+<connect gate="LORA_E22400T30D" pin="GND" pad="GND"/>
+<connect gate="LORA_E22400T30D" pin="M0" pad="M0"/>
+<connect gate="LORA_E22400T30D" pin="M1" pad="M1"/>
+<connect gate="LORA_E22400T30D" pin="RXD" pad="RXD"/>
+<connect gate="LORA_E22400T30D" pin="TXD" pad="TXD"/>
+<connect gate="LORA_E22400T30D" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:40965099/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40965099/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -388,37 +388,37 @@
 </library>
 <library name="ESP32-DEVKITV1" urn="urn:adsk.eagle:library:44018017">
 <packages>
-<package name="ESP32-DEVKITV1" urn="urn:adsk.eagle:footprint:44018019/1" library_version="1">
-<pad name="1" x="-22.87" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="2" x="-20.33" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="3" x="-17.79" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="4" x="-15.25" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="5" x="-12.71" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="6" x="-10.17" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="7" x="-7.63" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="8" x="-5.09" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="9" x="-2.55" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="10" x="-0.01" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="11" x="2.53" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="12" x="5.07" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="13" x="7.61" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="14" x="10.15" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="15" x="12.69" y="-13.54" drill="1" diameter="1.9304"/>
-<pad name="30" x="-22.87" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="29" x="-20.33" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="28" x="-17.79" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="27" x="-15.25" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="26" x="-12.71" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="25" x="-10.17" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="24" x="-7.63" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="23" x="-5.09" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="22" x="-2.55" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="21" x="-0.01" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="20" x="2.53" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="19" x="5.07" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="18" x="7.61" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="17" x="10.15" y="11.23" drill="1" diameter="1.9304"/>
-<pad name="16" x="12.69" y="11.23" drill="1" diameter="1.9304"/>
+<package name="ESP32-DEVKITV1" urn="urn:adsk.eagle:footprint:44018019/2" library_version="3">
+<pad name="1" x="-22.87" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-20.33" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-17.79" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-15.25" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="5" x="-12.71" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="6" x="-10.17" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="7" x="-7.63" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="8" x="-5.09" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="9" x="-2.55" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="10" x="-0.01" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="11" x="2.53" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="12" x="5.07" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="13" x="7.61" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="14" x="10.15" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="15" x="12.69" y="-13.54" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="30" x="-22.87" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="29" x="-20.33" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="28" x="-17.79" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="27" x="-15.25" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="26" x="-12.71" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="25" x="-10.17" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="24" x="-7.63" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="23" x="-5.09" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="22" x="-2.55" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="21" x="-0.01" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="20" x="2.53" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="19" x="5.07" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="18" x="7.61" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="17" x="10.15" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
+<pad name="16" x="12.69" y="11.23" drill="1" diameter="1.016" shape="long" rot="R90"/>
 <text x="-22.21" y="-11.2" size="1.016" layer="21" rot="R90">3V3</text>
 <text x="-19.67" y="-11.2" size="1.016" layer="21" rot="R90">GND</text>
 <text x="-17.13" y="-11.2" size="1.016" layer="21" rot="R90">IO15</text>
@@ -459,7 +459,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="ESP32-DEVKITV1" urn="urn:adsk.eagle:package:44018021/1" type="box" library_version="1">
+<package3d name="ESP32-DEVKITV1" urn="urn:adsk.eagle:package:44018021/6" type="model" library_version="3">
 <packageinstances>
 <packageinstance name="ESP32-DEVKITV1"/>
 </packageinstances>
@@ -506,7 +506,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP32DEVKITV1" urn="urn:adsk.eagle:component:44018022/1" library_version="1">
+<deviceset name="ESP32DEVKITV1" urn="urn:adsk.eagle:component:44018022/3" library_version="3">
 <gates>
 <gate name="G$1" symbol="ESP32-DEVKITV1" x="0" y="0"/>
 </gates>
@@ -545,7 +545,7 @@
 <connect gate="G$1" pin="VP" pad="17"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:44018021/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:44018021/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -648,7 +648,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="buzzer" urn="urn:adsk.eagle:library:113">
+<library name="buzzer">
 <description>&lt;b&gt;Speakers and Buzzers&lt;/b&gt;&lt;p&gt;
 &lt;ul&gt;Distributors:
 &lt;li&gt;Buerklin
@@ -657,19 +657,19 @@
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="AL11P" urn="urn:adsk.eagle:footprint:5250/1" library_version="2">
+<package name="AL11P" urn="urn:adsk.eagle:footprint:5250/1" locally_modified="yes">
 <description>&lt;b&gt;SPEAKER&lt;/b&gt;</description>
 <circle x="0" y="0" radius="5.715" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="6.223" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="1.016" width="0.1524" layer="21"/>
-<pad name="-" x="-2.286" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
-<pad name="+" x="2.286" y="0" drill="1.016" diameter="1.905" shape="octagon"/>
+<pad name="-" x="-2.286" y="0" drill="1.016" diameter="1.905" shape="long"/>
+<pad name="+" x="2.286" y="0" drill="1.016" diameter="1.905" shape="long"/>
 <text x="-3.175" y="6.35" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="AL11P" urn="urn:adsk.eagle:package:5308/1" type="box" library_version="2">
+<package3d name="AL11P" urn="urn:adsk.eagle:package:5308/1" type="box">
 <description>SPEAKER</description>
 <packageinstances>
 <packageinstance name="AL11P"/>
@@ -677,7 +677,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="SP" urn="urn:adsk.eagle:symbol:5218/1" library_version="2">
+<symbol name="SP">
 <wire x1="-1.905" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="94"/>
 <wire x1="1.905" y1="-0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
 <wire x1="1.905" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
@@ -696,7 +696,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AL11P" urn="urn:adsk.eagle:component:5330/2" prefix="SP" library_version="2">
+<deviceset name="AL11P" prefix="SP">
 <description>&lt;b&gt;SPEAKER&lt;/b&gt;&lt;p&gt; Source: Buerklin</description>
 <gates>
 <gate name="G$1" symbol="SP" x="0" y="0"/>
@@ -734,18 +734,18 @@
 </class>
 </classes>
 <parts>
-<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MICROSD_SMALL_READER" device="" package3d_urn="urn:adsk.eagle:package:44017969/2" override_package3d_urn="urn:adsk.eagle:package:44017969/3" override_package_urn="urn:adsk.eagle:footprint:44017967/2"/>
-<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_MODULE" device="" package3d_urn="urn:adsk.eagle:package:39608400/5" override_package3d_urn="urn:adsk.eagle:package:49474690/2" override_package_urn="urn:adsk.eagle:footprint:39608398/5"/>
-<part name="U$8" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="E22-400T30D" device="" package3d_urn="urn:adsk.eagle:package:40965099/4" override_package3d_urn="urn:adsk.eagle:package:40965099/7" override_package_urn="urn:adsk.eagle:footprint:40965097/4"/>
-<part name="U$9" library="ESP32-DEVKITV1" library_urn="urn:adsk.eagle:library:44018017" deviceset="ESP32DEVKITV1" device="" package3d_urn="urn:adsk.eagle:package:44018021/1" override_package3d_urn="urn:adsk.eagle:package:44018021/5" override_package_urn="urn:adsk.eagle:footprint:44018019/1"/>
+<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MICROSD_SMALL_READER" device="" package3d_urn="urn:adsk.eagle:package:44017969/2" override_package3d_urn="urn:adsk.eagle:package:44017969/3" override_package_urn="urn:adsk.eagle:footprint:44017967/2" override_locally_modified="yes"/>
+<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
+<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
+<part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
+<part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
+<part name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_MODULE" device="" package3d_urn="urn:adsk.eagle:package:39608400/7" override_package3d_urn="urn:adsk.eagle:package:49474690/2" override_package_urn="urn:adsk.eagle:footprint:39608398/5" override_locally_modified="yes"/>
+<part name="U$8" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="E22-400T30D" device="" package3d_urn="urn:adsk.eagle:package:40965099/5" override_package3d_urn="urn:adsk.eagle:package:40965099/7" override_package_urn="urn:adsk.eagle:footprint:40965097/4" override_locally_modified="yes"/>
+<part name="U$9" library="ESP32-DEVKITV1" library_urn="urn:adsk.eagle:library:44018017" deviceset="ESP32DEVKITV1" device="" package3d_urn="urn:adsk.eagle:package:44018021/6"/>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49481284/2" override_package_urn="urn:adsk.eagle:footprint:30303/1"/>
-<part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="SP1" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1" override_package3d_urn="urn:adsk.eagle:package:49474686/2" override_package_urn="urn:adsk.eagle:footprint:5250/1"/>
+<part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
 <part name="U$11" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="CHAVE_SS-5GL" device="" package3d_urn="urn:adsk.eagle:package:45208058/14"/>
+<part name="SP2" library="buzzer" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -767,7 +767,7 @@
 <instance part="U$5" gate="G$1" x="-43.18" y="134.62" smashed="yes"/>
 <instance part="U$6" gate="G$1" x="63.5" y="119.38" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="124.46" y="22.86" smashed="yes"/>
-<instance part="U$8" gate="G$1" x="127" y="53.34" smashed="yes"/>
+<instance part="U$8" gate="LORA_E22400T30D" x="127" y="53.34" smashed="yes"/>
 <instance part="U$9" gate="G$1" x="58.42" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.34" y="-3.81" size="1.27" layer="95" rot="R180"/>
 </instance>
@@ -776,11 +776,11 @@
 <attribute name="VALUE" x="157.48" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="U$10" gate="G$1" x="86.36" y="119.38" smashed="yes"/>
-<instance part="SP1" gate="G$1" x="180.34" y="114.3" smashed="yes">
-<attribute name="NAME" x="176.53" y="120.65" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.53" y="111.125" size="1.778" layer="96"/>
-</instance>
 <instance part="U$11" gate="G$1" x="-45.72" y="73.66" smashed="yes"/>
+<instance part="SP2" gate="G$1" x="149.86" y="116.84" smashed="yes">
+<attribute name="NAME" x="146.05" y="123.19" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.05" y="113.665" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -829,7 +829,7 @@
 <label x="-58.42" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="GND"/>
+<pinref part="U$8" gate="LORA_E22400T30D" pin="GND"/>
 <wire x1="104.14" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
 <label x="88.9" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -844,10 +844,10 @@
 <label x="154.94" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="SP1" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="114.3" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
-<label x="172.72" y="106.68" size="1.778" layer="95"/>
+<pinref part="SP2" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="116.84" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
+<label x="142.24" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX1" class="0">
@@ -929,7 +929,7 @@
 <label x="30.48" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="M0"/>
+<pinref part="U$8" gate="LORA_E22400T30D" pin="M0"/>
 <wire x1="104.14" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 <label x="91.44" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -941,7 +941,7 @@
 <label x="30.48" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="M1"/>
+<pinref part="U$8" gate="LORA_E22400T30D" pin="M1"/>
 <wire x1="104.14" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <label x="91.44" y="58.42" size="1.778" layer="95"/>
 </segment>
@@ -953,7 +953,7 @@
 <label x="83.82" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="TXD"/>
+<pinref part="U$8" gate="LORA_E22400T30D" pin="TXD"/>
 <wire x1="104.14" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <label x="88.9" y="53.34" size="1.778" layer="95"/>
 </segment>
@@ -965,14 +965,14 @@
 <label x="83.82" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="RXD"/>
+<pinref part="U$8" gate="LORA_E22400T30D" pin="RXD"/>
 <wire x1="104.14" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <label x="88.9" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="AUX"/>
+<pinref part="U$8" gate="LORA_E22400T30D" pin="AUX"/>
 <wire x1="104.14" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -1009,7 +1009,7 @@
 <label x="170.18" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="VCC"/>
+<pinref part="U$8" gate="LORA_E22400T30D" pin="VCC"/>
 <wire x1="104.14" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
 <label x="91.44" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -1045,15 +1045,15 @@
 </net>
 <net name="BUZZER" class="0">
 <segment>
-<pinref part="SP1" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="114.3" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
-<label x="187.96" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$9" gate="G$1" pin="IO27"/>
 <wire x1="40.64" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
 <label x="25.4" y="12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SP2" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="116.84" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
+<label x="157.48" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OPTOACOPLADOR1" class="0">

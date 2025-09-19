@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -76,9 +76,9 @@
 <library name="CRD" urn="urn:adsk.eagle:library:39051337">
 <description>Componentes utilizados na Cactus Rockets Design</description>
 <packages>
-<package name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:footprint:39191965/1" library_version="42">
-<pad name="1" x="-1.27" y="0" drill="0.9"/>
-<pad name="2" x="1.27" y="0" drill="0.9"/>
+<package name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:footprint:39191965/2" locally_modified="yes" library_version="57" library_locally_modified="yes">
+<pad name="1" x="-1.27" y="0" drill="1.016" diameter="1.27" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" diameter="1.27" shape="long" rot="R90"/>
 <wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-2.54" x2="-2.032" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="-2.032" y1="-2.54" x2="-0.508" y2="-2.54" width="0.127" layer="21"/>
@@ -97,7 +97,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:package:39191967/2" type="model" library_version="42">
+<package3d name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:package:39191967/3" type="model" library_version="57" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="JST2.54X2P_FOOTPRINT"/>
 </packageinstances>
@@ -115,7 +115,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JST2.54X2P" urn="urn:adsk.eagle:component:39191968/3" library_version="42">
+<deviceset name="JST2.54X2P" urn="urn:adsk.eagle:component:39191968/4" library_version="57" library_locally_modified="yes">
 <description>Conector JST 2 pinos (2.54mm de distância entre pinos)</description>
 <gates>
 <gate name="G$1" symbol="JST2.54X2P_SYMBOL" x="0" y="0"/>
@@ -127,7 +127,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39191967/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39191967/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -223,13 +223,13 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
+<part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/3"/>
+<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/3"/>
+<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/3"/>
+<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/3"/>
+<part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/3"/>
 <part name="V" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2041" device="" package3d_urn="urn:adsk.eagle:package:8078635/1"/>
-<part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
+<part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/3"/>
 </parts>
 <sheets>
 <sheet>
