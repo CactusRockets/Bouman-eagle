@@ -8033,7 +8033,7 @@ part number 2062-2P from STA</description>
 <part name="BATERIA" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="SKIB1.0" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="SKIB3" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="SKIB2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="SKIB1.1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 </parts>
 <sheets>
@@ -8170,7 +8170,7 @@ part number 2062-2P from STA</description>
 <instance part="P+4" gate="VCC" x="68.58" y="45.72" smashed="yes">
 <attribute name="VALUE" x="66.04" y="43.18" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SKIB3" gate="G$1" x="45.72" y="33.02" smashed="yes">
+<instance part="SKIB2" gate="G$1" x="45.72" y="33.02" smashed="yes">
 <attribute name="VALUE" x="43.18" y="28.194" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="43.18" y="38.608" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -8315,7 +8315,7 @@ part number 2062-2P from STA</description>
 <wire x1="58.42" y1="35.56" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 <label x="58.42" y="38.1" size="1.778" layer="95"/>
-<pinref part="SKIB3" gate="G$1" pin="2"/>
+<pinref part="SKIB2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SKIB2" class="0">
@@ -8441,7 +8441,7 @@ part number 2062-2P from STA</description>
 <wire x1="53.34" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="33.02" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <label x="58.42" y="27.94" size="1.778" layer="95"/>
-<pinref part="SKIB3" gate="G$1" pin="1"/>
+<pinref part="SKIB2" gate="G$1" pin="1"/>
 <label x="58.42" y="20.32" size="1.778" layer="95"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
@@ -8467,9 +8467,9 @@ part number 2062-2P from STA</description>
 <approved hash="113,1,24.7227,-58.5826,3.3-BUZ,,,,,"/>
 <approved hash="113,1,155.617,89.0626,GND,,,,,"/>
 <approved hash="113,1,-5.75733,58.5826,BATERIA,,,,,"/>
-<approved hash="113,1,50.1227,83.9826,SKIB1,,,,,"/>
-<approved hash="113,1,32.3427,28.1026,SKIB2,,,,,"/>
-<approved hash="113,1,50.1227,35.7226,SKIB3,,,,,"/>
+<approved hash="113,1,50.1227,83.9826,SKIB1.0,,,,,"/>
+<approved hash="113,1,50.1227,35.7226,SKIB2,,,,,"/>
+<approved hash="113,1,32.3427,83.9826,SKIB1.1,,,,,"/>
 </errors>
 </schematic>
 </drawing>

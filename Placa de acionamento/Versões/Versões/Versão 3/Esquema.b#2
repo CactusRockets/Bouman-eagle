@@ -187,7 +187,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:RpODcveeSC6_xb2NUnBt0A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d3c54600-be05-46a0-aa6c-7da2fb251511" lastsyncedrevisionid="d3c54600-be05-46a0-aa6c-7da2fb251511" lastboardhashguid="7a2e4fd7-505f-0dd0-e260-c932a55f449c" lastpushedtime="2023-08-13T06:55:43Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGUxMTk5" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGUxMTk5IzIwMjUwNjA1OTM2MzUyODI2" f3durn="urn:adsk.wipprod:dm.lineage:sRZVH7P8TmSE6DUDYCCkkQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="e95faaeb-4ed1-4ee5-8bd4-491fe58a5ab3" lastsyncedrevisionid="e95faaeb-4ed1-4ee5-8bd4-491fe58a5ab3" lastboardhashguid="14a9d7b5-b96f-7cad-9607-7585bea2e7bd" lastpushedtime="2025-09-08T01:03:55Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="69.83" y2="0" width="0" layer="20"/>
 <wire x1="69.83" y1="0" x2="69.83" y2="58.471" width="0" layer="20"/>
@@ -1717,7 +1717,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="5" x="66.04" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="43.053" y="29.21" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO220" package3d_urn="urn:adsk.eagle:package:28520/1" value="IRF540" x="59.69" y="26.67" smashed="yes">
+<element name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO220" package3d_urn="urn:adsk.eagle:package:28520/1" override_package3d_urn="urn:adsk.eagle:package:49478857/2" override_package_urn="urn:adsk.eagle:footprint:28453/1" value="IRF540" x="59.69" y="26.67" smashed="yes">
 <attribute name="NAME" x="55.88" y="31.877" size="1.778" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="5" x="90.17" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.753" y="29.21" size="1.778" layer="27" ratio="10"/>

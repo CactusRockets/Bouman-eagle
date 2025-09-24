@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8034,6 +8034,8 @@ part number 2062-2P from STA</description>
 <part name="BATERIA" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="SKIB1" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 <part name="SKIB2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SKIB3" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
 </parts>
 <sheets>
 <sheet>
@@ -8063,8 +8065,8 @@ part number 2062-2P from STA</description>
 <instance part="GND8" gate="1" x="68.58" y="2.54" smashed="yes">
 <attribute name="VALUE" x="66.04" y="0" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="VCC" x="68.58" y="38.1" smashed="yes">
-<attribute name="VALUE" x="66.04" y="35.56" size="1.778" layer="96" rot="R90"/>
+<instance part="P+2" gate="VCC" x="35.56" y="40.64" smashed="yes">
+<attribute name="VALUE" x="33.02" y="38.1" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q3" gate="G$1" x="60.96" y="-55.88" smashed="yes">
 <attribute name="VALUE" x="49.53" y="-55.88" size="1.778" layer="96"/>
@@ -8169,9 +8171,16 @@ part number 2062-2P from STA</description>
 <attribute name="VALUE" x="43.18" y="76.454" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="43.18" y="86.868" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="SKIB2" gate="G$1" x="45.72" y="25.4" smashed="yes">
-<attribute name="VALUE" x="43.18" y="20.574" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="43.18" y="30.988" size="1.778" layer="95" font="vector"/>
+<instance part="SKIB2" gate="G$1" x="27.94" y="25.4" smashed="yes">
+<attribute name="VALUE" x="25.4" y="20.574" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="25.4" y="30.988" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="P+4" gate="VCC" x="68.58" y="45.72" smashed="yes">
+<attribute name="VALUE" x="66.04" y="43.18" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SKIB3" gate="G$1" x="45.72" y="33.02" smashed="yes">
+<attribute name="VALUE" x="43.18" y="28.194" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="43.18" y="38.608" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -8293,18 +8302,23 @@ part number 2062-2P from STA</description>
 <pinref part="SKIB1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="68.58" y1="35.56" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="27.94" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<label x="58.42" y="30.48" size="1.778" layer="95"/>
-<pinref part="SKIB2" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="SP" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="-22.86" x2="66.04" y2="-27.94" width="0.1524" layer="91"/>
 <label x="66.04" y="-22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="P+2" gate="VCC" pin="VCC"/>
+<wire x1="35.56" y1="38.1" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SKIB2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+<wire x1="68.58" y1="43.18" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="35.56" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<label x="58.42" y="38.1" size="1.778" layer="95"/>
+<pinref part="SKIB3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SKIB2" class="0">
@@ -8419,13 +8433,19 @@ part number 2062-2P from STA</description>
 <label x="88.9" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
+<wire x1="68.58" y1="20.32" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="33.02" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<label x="58.42" y="27.94" size="1.778" layer="95"/>
+<pinref part="SKIB3" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="15.24" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="20.32" x2="68.58" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="25.4" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="25.4" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <label x="58.42" y="20.32" size="1.778" layer="95"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <pinref part="SKIB2" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="20.32" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+<junction x="68.58" y="20.32"/>
 </segment>
 </net>
 <net name="SINAL_SKIB2" class="0">
@@ -8444,13 +8464,14 @@ part number 2062-2P from STA</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,-10.2052,60.96,BATERIA,,,,,"/>
-<approved hash="113,1,47.045,83.82,SKIB1,,,,,"/>
-<approved hash="113,1,47.045,27.94,SKIB2,,,,,"/>
 <approved hash="113,1,173.397,20.4826,S1-S2,,,,,"/>
 <approved hash="113,1,9.48267,35.7226,SK1-SK2,,,,,"/>
 <approved hash="113,1,24.7227,-58.5826,3.3-BUZ,,,,,"/>
 <approved hash="113,1,155.617,89.0626,GND,,,,,"/>
+<approved hash="113,1,-5.75733,58.5826,BATERIA,,,,,"/>
+<approved hash="113,1,50.1227,83.9826,SKIB1,,,,,"/>
+<approved hash="113,1,32.3427,28.1026,SKIB2,,,,,"/>
+<approved hash="113,1,50.1227,35.7226,SKIB3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
