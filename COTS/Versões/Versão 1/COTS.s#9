@@ -610,8 +610,10 @@
 <sheet>
 <plain>
 <text x="80.01" y="8.89" size="1.778" layer="91">Sinais Skibs</text>
-<text x="101.6" y="8.636" size="1.778" layer="91">Buzzer e 3V3</text>
+<text x="101.6" y="8.636" size="1.778" layer="91">Sinal e 3V3</text>
 <text x="128.27" y="8.89" size="1.778" layer="91">Bateria</text>
+<text x="145.796" y="8.636" size="1.778" layer="91">Comunicação serial</text>
+<text x="176.022" y="8.89" size="1.778" layer="91">Optoacopladores</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="27.94" y="58.42" smashed="yes"/>
