@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -369,7 +369,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="config">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -653,8 +653,8 @@ design rules under a new name.</description>
 <wire x1="64.838" y1="39.37" x2="64.848" y2="39.36" width="1.5" layer="16"/>
 <contactref element="U$10" pad="SDA"/>
 <wire x1="9.0455" y1="16.3545" x2="7.5955" y2="16.3545" width="1.5" layer="16"/>
-<wire x1="27.432" y1="10.16" x2="27.432" y2="6.096" width="1.5" layer="16"/>
-<wire x1="27.432" y1="6.096" x2="28.448" y2="5.08" width="1.5" layer="16"/>
+<wire x1="27.813" y1="9.779" x2="27.813" y2="5.715" width="1.5" layer="16"/>
+<wire x1="27.813" y1="5.715" x2="28.448" y2="5.08" width="1.5" layer="16"/>
 <wire x1="28.448" y1="5.08" x2="52.07" y2="5.08" width="1.5" layer="16"/>
 <wire x1="21.971" y1="28.448" x2="21.971" y2="30.861" width="1.5" layer="16"/>
 <wire x1="21.971" y1="30.861" x2="23.495" y2="32.385" width="1.5" layer="16"/>
@@ -663,7 +663,7 @@ design rules under a new name.</description>
 <wire x1="32.155" y1="27.535" x2="32.155" y2="12.724" width="1.5" layer="16"/>
 <wire x1="24.995" y1="11.5545" x2="13.8455" y2="11.5545" width="1.5" layer="16"/>
 <wire x1="13.8455" y1="11.5545" x2="9.0455" y2="16.3545" width="1.5" layer="16"/>
-<wire x1="27.432" y1="10.16" x2="26.0375" y2="11.5545" width="1.5" layer="16"/>
+<wire x1="27.813" y1="9.779" x2="26.0375" y2="11.5545" width="1.5" layer="16"/>
 <wire x1="24.995" y1="11.5545" x2="26.0375" y2="11.5545" width="1.5" layer="16"/>
 <wire x1="30.9855" y1="11.5545" x2="26.0375" y2="11.5545" width="1.5" layer="16"/>
 <wire x1="32.155" y1="12.724" x2="30.9855" y2="11.5545" width="1.5" layer="16"/>

@@ -759,7 +759,7 @@
 <part name="U$9" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/3"/>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49481863/2" override_package_urn="urn:adsk.eagle:footprint:30303/1"/>
 <part name="U$8" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="CHAVE_SS-5GL" device="" package3d_urn="urn:adsk.eagle:package:45208058/14"/>
-<part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP280" device="V1" package3d_urn="urn:adsk.eagle:package:39029072/8"/>
+<part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP280" device="V1" package3d_urn="urn:adsk.eagle:package:39029072/8" override_package3d_urn="urn:adsk.eagle:package:39029072/9" override_package_urn="urn:adsk.eagle:footprint:39029068/5"/>
 <part name="SP1" library="buzzer" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1" override_package3d_urn="urn:adsk.eagle:package:49887804/2" override_package_urn="urn:adsk.eagle:footprint:49887805/1"/>
 </parts>
 <sheets>
