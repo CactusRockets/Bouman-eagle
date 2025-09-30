@@ -739,13 +739,13 @@
 <part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
 <part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
 <part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
-<part name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_MODULE" device="" package3d_urn="urn:adsk.eagle:package:39608400/7" override_package3d_urn="urn:adsk.eagle:package:49474690/2" override_package_urn="urn:adsk.eagle:footprint:39608398/5" override_locally_modified="yes"/>
+<part name="U$7" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="GPS_MODULE" device="" package3d_urn="urn:adsk.eagle:package:39608400/7" override_package3d_urn="urn:adsk.eagle:package:49474690/4" override_package_urn="urn:adsk.eagle:footprint:49887819/1"/>
 <part name="U$8" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="E22-400T30D" device="" package3d_urn="urn:adsk.eagle:package:40965099/5" override_package3d_urn="urn:adsk.eagle:package:40965099/7" override_package_urn="urn:adsk.eagle:footprint:40965097/4" override_locally_modified="yes"/>
-<part name="U$9" library="ESP32-DEVKITV1" library_urn="urn:adsk.eagle:library:44018017" deviceset="ESP32DEVKITV1" device="" package3d_urn="urn:adsk.eagle:package:44018021/6"/>
+<part name="U$9" library="ESP32-DEVKITV1" library_urn="urn:adsk.eagle:library:44018017" deviceset="ESP32DEVKITV1" device="" package3d_urn="urn:adsk.eagle:package:44018021/6" override_package3d_urn="urn:adsk.eagle:package:49887797/2" override_package_urn="urn:adsk.eagle:footprint:44018019/2"/>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" override_package3d_urn="urn:adsk.eagle:package:49481284/2" override_package_urn="urn:adsk.eagle:footprint:30303/1"/>
 <part name="U$10" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/4"/>
 <part name="U$11" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="CHAVE_SS-5GL" device="" package3d_urn="urn:adsk.eagle:package:45208058/14"/>
-<part name="SP2" library="buzzer" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1"/>
+<part name="SP2" library="buzzer" deviceset="AL11P" device="" package3d_urn="urn:adsk.eagle:package:5308/1" override_package3d_urn="urn:adsk.eagle:package:49830359/2" override_package_urn="urn:adsk.eagle:footprint:49830360/1"/>
 </parts>
 <sheets>
 <sheet>
