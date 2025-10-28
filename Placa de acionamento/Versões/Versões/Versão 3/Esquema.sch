@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7277,8 +7277,8 @@ Source: www.kingbright.com</description>
 <attribute name="VALUE" x="155.194" y="78.74" size="1.778" layer="96" font="vector" rot="MR90"/>
 <attribute name="NAME" x="165.608" y="83.82" size="1.778" layer="95" font="vector" rot="MR90"/>
 </instance>
-<instance part="GND12" gate="1" x="149.86" y="81.28" smashed="yes">
-<attribute name="VALUE" x="147.32" y="78.74" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="149.86" y="78.74" smashed="yes">
+<attribute name="VALUE" x="147.32" y="76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="BATERIA" gate="G$1" x="-10.16" y="55.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-5.334" y="53.34" size="1.778" layer="96" font="vector" rot="R90"/>
@@ -7377,12 +7377,12 @@ Source: www.kingbright.com</description>
 <wire x1="48.26" y1="48.26" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="GND" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="86.36" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="83.82" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
-<junction x="149.86" y="86.36"/>
+<wire x1="149.86" y1="88.9" x2="149.86" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="149.86" y1="83.82" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
+<junction x="149.86" y="83.82"/>
 </segment>
 </net>
 <net name="SKIB1" class="0">
@@ -7574,16 +7574,6 @@ Source: www.kingbright.com</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="113,1,173.397,20.4826,S1-S2,,,,,"/>
-<approved hash="113,1,9.48267,35.7226,SK1-SK2,,,,,"/>
-<approved hash="113,1,24.7227,-58.5826,3.3-BUZ,,,,,"/>
-<approved hash="113,1,155.617,89.0626,GND,,,,,"/>
-<approved hash="113,1,-5.75733,58.5826,BATERIA,,,,,"/>
-<approved hash="113,1,50.1227,83.9826,SKIB1.0,,,,,"/>
-<approved hash="113,1,50.1227,35.7226,SKIB2,,,,,"/>
-<approved hash="113,1,32.3427,83.9826,SKIB1.1,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
