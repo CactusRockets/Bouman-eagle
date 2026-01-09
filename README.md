@@ -4,7 +4,7 @@ Nesse repositório temos os arquivos das placas que farão parte da aviônica do
 
 ### Descrição
 
-Temos três placas para esta aviônica:
+Temos as seguintes placas para esta aviônica:
 - Placa COTS
 - Placa de Processamento
 - Placa de Acionamento
@@ -34,9 +34,6 @@ Placa de baterias:
 
 <img width="600" alt="baterias1" src="https://github.com/user-attachments/assets/37d91328-94ee-409c-adda-e87750b15b2d" />
 <img width="600" alt="baterias2" src="https://github.com/user-attachments/assets/ff92dd5f-15bd-4a33-909d-91fd32343822" />
-
-
-### Conexões entre placas
 
 ### Funcionamento
 
