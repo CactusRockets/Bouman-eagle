@@ -9,13 +9,17 @@ Temos as seguintes placas para esta aviônica:
 - Placa de Processamento
 - Placa de Acionamento
 
-A placa COTS é responsável pela leitura de pressão, altitude, aceleração e angulação do foguete. A placa de processamento é responsável pelo processamento dos dados recebidos do COTS e do módulo GPS, armazenamento desses dados e telemetria. A placa de acionamento possui o circuito necessário para a correta ativação do Skib.
+A placa COTS é responsável pela leitura de pressão, altitude, aceleração e angulação do foguete.
+
+A placa de processamento é responsável pelo processamento dos dados recebidos do COTS e do módulo GPS, armazenamento desses dados e telemetria. 
+
+A placa de acionamento possui o circuito necessário para a correta ativação do Skib.
 
 OBS.: Os arquivos das placas podems ser abertos por meio software Eagle da Autodesk.
 
 ### Esquemáticos e layouts
 
-Placa de COTS:
+Placa COTS:
 
 <img width="600" alt="cots1" src="https://github.com/user-attachments/assets/11715b7f-f115-45cb-9d50-663eacd5bdb0" />
 <img width="600" alt="cots2" src="https://github.com/user-attachments/assets/10717203-9935-49a7-a110-2b2c35c0b24d" />
